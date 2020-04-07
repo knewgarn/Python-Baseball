@@ -14,4 +14,6 @@ plt.ylabel("Attendance")
 
 plt.axhline(y=attendance["attendance"].mean(), label="Mean", linestyle="--", color="green")
 
+plt.savefig("attendance.png")
+
 plt.show()
